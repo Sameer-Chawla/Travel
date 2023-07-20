@@ -14,7 +14,6 @@ const App = () => {
           <Home />
           <Main />
           <Footer />
-          
         </div>
 
     )
