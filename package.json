@@ -1,0 +1,55 @@
+{
+  "name": "travel",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.15.0",
+    "aos": "^2.3.4",
+    "fastify": "^3.20.2",
+    "fastify-static": "^4.2.3",
+    "is-mobile": "^3.0.0",
+    "node-sass": "^9.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-scripts": "^1.1.5",
+    "sass": "^1.63.6",
+    "scss": "^0.2.4"
+  },
+  "rules": {
+    "react/jsx-filename-extension": [
+      0
+    ],
+    "import/extensions": "off"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.5"
+  }
+}
